@@ -1,0 +1,22 @@
+{
+  "name": "parse-cube-lut",
+  "version": "1.0.0",
+  "description": "Cube LUT (IRIDAS/Adobe) parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thibauts/parse-cube-lut.git"
+  },
+  "keywords": [
+    "cube",
+    "lut",
+    "lookup",
+    "color",
+    "grading"
+  ],
+  "author": "thibauts",
+  "license": "MIT"
+}
