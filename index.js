@@ -27,10 +27,10 @@ function parse(str) {
         title = line.slice(7, -1);
         break;
       case 'DOMAIN_MIN':
-        domain[0] = parts.map(Number);
+        domain[0] = parts.slice(1).map(Number);
         break;
       case 'DOMAIN_MAX':
-        domain[1] = parts.map(Number);
+        domain[1] = parts.slice(1).map(Number);
         break;
       case 'LUT_1D_SIZE':
         type = '1D';
